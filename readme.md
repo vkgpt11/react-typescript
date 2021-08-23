@@ -13,7 +13,12 @@
 ## Step 4
 
 - Added index.html & App.tsx and index.tsx
+- Added tsconfig.json file
 
 ## Step 5
 
 > yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
+
+## Step 6
+
+- Added .babelrc file with required settings
