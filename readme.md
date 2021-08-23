@@ -37,3 +37,7 @@
 - Cannot find module '@babel/plugin-transform-runtime'
 - Module not found: Error: Can't resolve 'style-loader' in 'D:\Study-Aug2021\react-typescript'
 - Module not found: Error: Can't resolve 'css-loader' in 'D:\Study-Aug2021\react-typescript'
+
+## Step 9
+
+- Added & loaded an image
