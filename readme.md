@@ -22,3 +22,10 @@
 ## Step 6
 
 - Added .babelrc file with required settings
+
+## Step 7
+
+- Added webpack
+  > yarn add -D html-webpack-plugin webpack webpack-cli webpack-dev-server
+- Add babel loader
+  > yarn add -D babel-loader
