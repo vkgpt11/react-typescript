@@ -42,3 +42,14 @@
 
 - Added & loaded an image file
 - Added & loaded an svg file
+
+### Run app in PROD mode
+
+- Build the app
+
+  > yarn build
+
+- Navigate to folder build
+  > npx serve
+- You can clearly see the bundle.js file size here
+  - In Prod mode its less than Dev mode
