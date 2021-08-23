@@ -40,4 +40,5 @@
 
 ## Step 9
 
-- Added & loaded an image
+- Added & loaded an image file
+- Added & loaded an svg file
