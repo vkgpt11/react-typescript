@@ -29,3 +29,11 @@
   > yarn add -D html-webpack-plugin webpack webpack-cli webpack-dev-server
 - Add babel loader
   > yarn add -D babel-loader
+
+## Step 8
+
+** Fixed below errors **
+
+- Cannot find module '@babel/plugin-transform-runtime'
+- Module not found: Error: Can't resolve 'style-loader' in 'D:\Study-Aug2021\react-typescript'
+- Module not found: Error: Can't resolve 'css-loader' in 'D:\Study-Aug2021\react-typescript'
