@@ -32,7 +32,7 @@
 
 ## Step 8
 
-** Fixed below errors **
+**Fixed below errors**
 
 - Cannot find module '@babel/plugin-transform-runtime'
 - Module not found: Error: Can't resolve 'style-loader' in 'D:\Study-Aug2021\react-typescript'
