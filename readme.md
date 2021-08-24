@@ -74,3 +74,7 @@
   > yarn add -D eslint-plugin-import eslint-plugin-jsx-a11y
 - Added eslint and prettier
 - Added husky
+
+## Step 12
+
+- Added copy plugin and bundle analyzer
