@@ -73,3 +73,4 @@
 - Added
   > yarn add -D eslint-plugin-import eslint-plugin-jsx-a11y
 - Added eslint and prettier
+- Added husky
