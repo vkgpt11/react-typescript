@@ -79,3 +79,11 @@
 
 - Added copy plugin and bundle analyzer
 - Added the settings, if the source and destination folder does not exists - no error would be shown to user
+
+## Todo
+
+- Added Scss loader
+- Separate Component Files
+- Optimizing For Production
+- Extract CSS Into Its Own File
+- Hash / Cache-Busting String
