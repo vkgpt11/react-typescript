@@ -1,6 +1,7 @@
 import './style.css';
 import Img from './apple-logo.png';
 import Svg from './google-logo.svg';
+import { ClickCounter } from './ClickCounter';
 
 export const App = () => {
   return (
@@ -9,9 +10,10 @@ export const App = () => {
       <img src={Svg} alt="logo" width="50" height="50" />
 
       <h1>
-        React Typescript webpack starter template-{process.env.NODE_ENV}{' '}
+        Hi React Typescript webpack starter template - {process.env.NODE_ENV}{' '}
         {process.env.name}
       </h1>
+      <ClickCounter />
     </>
   );
 };

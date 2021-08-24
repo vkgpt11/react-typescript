@@ -53,3 +53,14 @@
   > npx serve
 - You can clearly see the bundle.js file size here
   - In Prod mode its less than Dev mode
+
+## Step 10
+
+- Created and used counter component
+- Enabled only loading of components which is getting changed
+- Added a package
+  > yarn add -D @pmmmwh/react-refresh-webpack-plugin
+- Fixed Error - Module not found: Error: Can't resolve 'react-refresh/runtime'
+  > yarn add -D react-refresh
+- Fixed Error
+  `ncaught TypeError: SocketClient is not a constructor at initWDSSocket (WDSSocket.js:17) at ./node_modules/@pmmmwh/react-refresh-webpack-plugin`
