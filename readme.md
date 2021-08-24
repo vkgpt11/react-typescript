@@ -80,16 +80,19 @@
 - Added copy plugin and bundle analyzer
 - Added the settings, if the source and destination folder does not exists - no error would be shown to user
 
-## Step 13
+## Step 13: Add Scss loader
 
 - Configured node-sass and sass-loader,
 - Reason to not install `sass` and choose `node-sass` is `node-sass` is faster. About 7 times faster.
   https://www.peterbe.com/plog/quick-comparison-between-sass-and-node-sass
 
+## Step 14: Extract CSS Into Its Own File
+
+- Added mini css extract support
+  > yarn add -D mini-css-extract-plugin
+- Setup the loader in webpack config file
+
 ## Todo
 
-- Added Scss loader
-- Separate Component Files
 - Optimizing For Production
-- Extract CSS Into Its Own File
 - Hash / Cache-Busting String
