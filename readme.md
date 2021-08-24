@@ -92,7 +92,4 @@
   > yarn add -D mini-css-extract-plugin
 - Setup the loader in webpack config file
 
-## Todo
-
-- Optimizing For Production
-- Hash / Cache-Busting String
+## Step 15: Added support for hashing, Cleaning the build contents

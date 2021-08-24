@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
@@ -35,10 +36,11 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '..', './build'),
-    filename: 'bundle.js',
+    filename: 'bundle.[fullhash].js',
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: 'main.css' }),
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin({ filename: 'main.[fullhash].css' }),
 
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '..', './src/index.html'),
