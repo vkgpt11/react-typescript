@@ -78,3 +78,4 @@
 ## Step 12
 
 - Added copy plugin and bundle analyzer
+- Added the settings, if the source and destination folder does not exists - no error would be shown to user
