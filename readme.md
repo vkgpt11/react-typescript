@@ -1,36 +1,38 @@
-## Step 1
+# Steps to Configure React, TS, Webpack, Babel & Prettier
+
+### Step 1
 
 > npm init --y
 
-## Step 2
+### Step 2
 
 > yarn add react react-dom
 
-## Step 3
+### Step 3
 
 > yarn add -D @types/react @types/react-dom typescript
 
-## Step 4
+### Step 4
 
 - Added index.html & App.tsx and index.tsx
 - Added tsconfig.json file
 
-## Step 5
+### Step 5
 
 > yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
 
-## Step 6
+### Step 6
 
 - Added .babelrc file with required settings
 
-## Step 7
+### Step 7
 
 - Added webpack
   > yarn add -D html-webpack-plugin webpack webpack-cli webpack-dev-server
 - Add babel loader
   > yarn add -D babel-loader
 
-## Step 8
+### Step 8
 
 ** Fixed below errors **
 
@@ -38,7 +40,7 @@
 - Module not found: Error: Can't resolve 'style-loader' in 'D:\Study-Aug2021\react-typescript'
 - Module not found: Error: Can't resolve 'css-loader' in 'D:\Study-Aug2021\react-typescript'
 
-## Step 9
+### Step 9
 
 - Added & loaded an image file
 - Added & loaded an svg file
@@ -54,7 +56,7 @@
 - You can clearly see the bundle.js file size here
   - In Prod mode its less than Dev mode
 
-## Step 10
+### Step 10
 
 - Created and used counter component
 - Enabled only loading of components which is getting changed
@@ -65,7 +67,7 @@
 - Fixed Error
   `ncaught TypeError: SocketClient is not a constructor at initWDSSocket (WDSSocket.js:17) at ./node_modules/@pmmmwh/react-refresh-webpack-plugin`
 
-## Step 11
+### Step 11
 
 - Added support for eslint
   > yarn add -D eslint eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser
@@ -75,29 +77,29 @@
 - Added eslint and prettier
 - Added husky
 
-## Step 12
+### Step 12
 
 - Added copy plugin and bundle analyzer
 - Added the settings, if the source and destination folder does not exists - no error would be shown to user
 
-## Step 13: Add Scss loader
+### Step 13: Add Scss loader
 
 - Configured node-sass and sass-loader,
 - Reason to not install `sass` and choose `node-sass` is `node-sass` is faster. About 7 times faster.
   https://www.peterbe.com/plog/quick-comparison-between-sass-and-node-sass
 
-## Step 14: Extract CSS Into Its Own File
+### Step 14: Extract CSS Into Its Own File
 
 - Added mini css extract support
   > yarn add -D mini-css-extract-plugin
 - Setup the loader in webpack config file
 
-## Step 15: Added support for hashing, Cleaning the build contents, manifest
+### Step 15: Added support for hashing, Cleaning the build contents, manifest
 
 - Adding manifest
   > yarn add -D webpack-manifest-plugin
 
-## Errors
+### Errors
 
 1. Occurs if the file is in use by local server
    `Error: EPERM: operation not permitted, scandir 'D:/Study-Aug2021/react-typescript/build/4a44e02494479c250262.png'`
@@ -127,25 +129,25 @@ However, if you're just starting a medium-to-large scale react project, it can b
 
 - A page component will contain children from components folder, domains folder, or its own subfolder. It has its own state, and usually call some services as well.
 
-## Domain Folder
+### Domain Folder
 
 - It contains components related to business functionality that used in the pages.
 - II would use the components/ folder only for reusable components (e.g. UI components). Every other component should move to a domain centred folder.
 
-## Services Folder
+### Services Folder
 
 - Inspired by Angular architecture
 - It simply a javascript function to manage API integration based on the type of data.
 - Code related to websockets
 
-## Store Folder
+### Store Folder
 
 - Used for redux
 
-## Utils Folder
+### Utils Folder
 
 The utils folder is just a place to locate some utility functions that used repeatedly in the project. Files in the utils folder should only contain some functions like date formatting, string conversion, etc.
 
-## Models folder
+### Models folder
 
 - To keep shared typescripts interfaces
