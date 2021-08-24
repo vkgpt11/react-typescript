@@ -64,3 +64,12 @@
   > yarn add -D react-refresh
 - Fixed Error
   `ncaught TypeError: SocketClient is not a constructor at initWDSSocket (WDSSocket.js:17) at ./node_modules/@pmmmwh/react-refresh-webpack-plugin`
+
+## Step 11
+
+- Added support for eslint
+  > yarn add -D eslint eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser
+  > yarn add -D @typescript-eslint/eslint-plugin
+- Added
+  > yarn add -D eslint-plugin-import eslint-plugin-jsx-a11y
+- Added eslint and prettier
