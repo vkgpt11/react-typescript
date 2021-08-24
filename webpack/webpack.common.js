@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
@@ -48,6 +49,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: 'source', to: 'dest', noErrorOnMissing: true }],
     }),
+    new WebpackManifestPlugin(),
   ],
   stats: 'errors-only',
 }

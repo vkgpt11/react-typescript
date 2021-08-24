@@ -92,4 +92,12 @@
   > yarn add -D mini-css-extract-plugin
 - Setup the loader in webpack config file
 
-## Step 15: Added support for hashing, Cleaning the build contents
+## Step 15: Added support for hashing, Cleaning the build contents, manifest
+
+- Adding manifest
+  > yarn add -D webpack-manifest-plugin
+
+## Errors
+
+1. Occurs if the file is in use by local server
+   `Error: EPERM: operation not permitted, scandir 'D:/Study-Aug2021/react-typescript/build/4a44e02494479c250262.png'`
