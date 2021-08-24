@@ -80,6 +80,12 @@
 - Added copy plugin and bundle analyzer
 - Added the settings, if the source and destination folder does not exists - no error would be shown to user
 
+## Step 13
+
+- Configured node-sass and sass-loader,
+- Reason to not install `sass` and choose `node-sass` is `node-sass` is faster. About 7 times faster.
+  https://www.peterbe.com/plog/quick-comparison-between-sass-and-node-sass
+
 ## Todo
 
 - Added Scss loader
